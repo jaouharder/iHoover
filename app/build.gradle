@@ -9,7 +9,6 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
-    id 'com.diffplug.spotless' version '5.17.0'
 }
 
 repositories {
@@ -27,15 +26,6 @@ dependencies {
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:30.0-jre'
 }
-
-spotless {
-    java {
-        googleJavaFormat()
-        target 'src/*/java/**/*.java'
-    }
-}
-
-compileJava.dependsOn spotlessApply
 
 application {
     // Define the main class for the application.
