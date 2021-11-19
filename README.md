@@ -2,6 +2,12 @@
 
 [![Java CI with Gradle](https://github.com/jaouharder/iHoover/actions/workflows/gradle.yml/badge.svg?branch=master)](https://github.com/jaouharder/iHoover/actions/workflows/gradle.yml)
 
+> **Used environment** 
+> - JDK 11 
+> - Gradle 
+> - Junit 5
+> - VS Code
+
 
 ## How to use this code 
 
@@ -10,7 +16,7 @@
 git clone https://github.com/jaouharder/iHoover.git 
 ```
 2. Build the project 
- - get permission 
+ - if you use linux give the permission first
  ```sh
  chmod +x gradlew
 ```
